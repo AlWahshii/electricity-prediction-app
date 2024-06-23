@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.electricty.predict">
+
+       <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="com.electricty.predict.Application"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="q"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.electricty.predict.DashboardActivity" />
+        <activity
+            android:name="com.electricty.predict.SplashScreenActivity"
+            android:theme="@style/AppTheme1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity
+            android:name="com.electricty.predict.RegistrationActivity"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name="com.electricty.predict.MyLoginLatest"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="com.electricty.predict.ForgetPasswordActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="com.electricty.predict.UserWelcomeActivity"
+            android:theme="@style/AppTheme1" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.electricty.predict.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:readPermission="com.electricty.predict.provider.READ">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/taptap_filepath" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

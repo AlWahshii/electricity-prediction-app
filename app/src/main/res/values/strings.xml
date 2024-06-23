@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Power Grid</string>
+    <string name="title">Test</string>
+    <string name="ti">Exit</string>
+    <string name="exit">Are you sure you want to exit?</string>
+    <string name="time_vie">testtime</string>
+    <string name="titlee">Delete Meeting</string>
+    <string name="delete_message">Are you sure you want to delete?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="next">Next</string>
+
+    <string name="start">Start</string>
+    <string name="sign_up">Sign Up</string>
+
+
+</resources>

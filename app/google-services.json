@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "295170915184",
+    "project_id": "database-e948d",
+    "storage_bucket": "database-e948d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295170915184:android:b0e2309a05cf4483b72db5",
+        "android_client_info": {
+          "package_name": "com.electricty.predict"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295170915184-7p9plcokvap77plsrlto263cjsq9mh0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.electricty.predict",
+            "certificate_hash": "a83a50bb89604c8938901d85f04db090fdb5e2a6"
+          }
+        },
+        {
+          "client_id": "295170915184-l546r8ogggcin35on6e1cm7c226t0b2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_z05VbnyktqzX9SlriS2mj_1cNDQ8U7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295170915184-l546r8ogggcin35on6e1cm7c226t0b2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
